@@ -1,37 +1,37 @@
 first_name,last_name,position,team
-Bart,Simpson,Catcher,Simpson Slammers
-Homer,Simpson,Pitcher,Simpson Slammers
-Marge,Simpson,1st Base,Simpson Slammers
-Lisa,Simpson,2nd Base,Simpson Slammers
-Ned,Flanders,3rd Base,Simpson Slammers
-Barney,Grumble,Shortstop,Simpson Slammers
-Monty,Burns,Right Field,Simpson Slammers
-Waylon,Smithers,Center Field,Simpson Slammers
-Clancy,Wiggum,Left Field,Simpson Slammers
-George,Jetson,Catcher,Jetson Jets
-Jane,Jetson,Pitcher,Jetson Jets
-Judy,Jetson,1st Base,Jetson Jets
-Elroy,Jetson,2nd Base,Jetson Jets
-Astro,Jetson,3rd Base,Jetson Jets
-Orbitty,Jetson,Shortstop,Jetson Jets
-Cosmo,Spacely,Right Field,Jetson Jets
-Rosie,Jetson,Center Field,Jetson Jets
-Stella,Spacely,Left Field,Jetson Jets
-Fred,Flinestone,Catcher,Flinestone Fire
-Wilma,Flinestone,Pitcher,Flinestone Fire
-Dino,Flinestone,1st Base,Flinestone Fire
-Barney,Rubble,2nd Base,Flinestone Fire
-Betty,Rubble,3rd Base,Flinestone Fire
-Pebbles,Flinestone,Shortstop,Flinestone Fire
-Joe,Rockhead,Right Field,Flinestone Fire
-Sam,Slagheap,Center Field,Flinestone Fire
-Sylvester,Slate,Left Field,Flinestone Fire
-Lois,Griffin,Catcher,Griffin Goats
-Brian,Griffin,Pitcher,Griffin Goats
-Peter,Griffin,1st Base,Griffin Goats
-Stewie,Griffin,2nd Base,Griffin Goats
-Chris,Griffin,3rd Base,Griffin Goats
-Glenn,Quagmire,Shortstop,Griffin Goats
-Cleveland,Brown,Right Field,Griffin Goats
-Tom,Tucker,Center Field,Griffin Goats
-Meg,Griffin,Left Field,Griffin Goats
+Bart,Simpson,Catcher,SimpsonSlammers
+Homer,Simpson,Pitcher,SimpsonSlammers
+Marge,Simpson,1st Base,SimpsonSlammers
+Lisa,Simpson,2nd Base,SimpsonSlammers
+Ned,Flanders,3rd Base,SimpsonSlammers
+Barney,Grumble,Shortstop,SimpsonSlammers
+Monty,Burns,Right Field,SimpsonSlammers
+Waylon,Smithers,Center Field,SimpsonSlammers
+Clancy,Wiggum,Left Field,SimpsonSlammers
+George,Jetson,Catcher,JetsonJets
+Jane,Jetson,Pitcher,SimpsonSlammers
+Judy,Jetson,1st Base,JetsonJets
+Elroy,Jetson,2nd Base,JetsonJets
+Astro,Jetson,3rd Base,JetsonJets
+Orbitty,Jetson,Shortstop,JetsonJets
+Cosmo,Spacely,Right Field,JetsonJets
+Rosie,Jetson,Center Field,JetsonJets
+Stella,Spacely,Left Field,JetsonJets
+Fred,Flinestone,Catcher,FlinestoneFire
+Wilma,Flinestone,Pitcher,FlinestoneFire
+Dino,Flinestone,1st Base,FlinestoneFire
+Barney,Rubble,2nd Base,FlinestoneFire
+Betty,Rubble,3rd Base,FlinestoneFire
+Pebbles,Flinestone,Shortstop,FlinestoneFire
+Joe,Rockhead,Right Field,FlinestoneFire
+Sam,Slagheap,Center Field,FlinestoneFire
+Sylvester,Slate,Left Field,FlinestoneFire
+Lois,Griffin,Catcher,GriffinGoats
+Brian,Griffin,Pitcher,GriffinGoats
+Peter,Griffin,1st Base,GriffinGoats
+Stewie,Griffin,2nd Base,GriffinGoats
+Chris,Griffin,3rd Base,GriffinGoats
+Glenn,Quagmire,Shortstop,GriffinGoats
+Cleveland,Brown,Right Field,GriffinGoats
+Tom,Tucker,Center Field,GriffinGoats
+Meg,Griffin,Left Field,GriffinGoats

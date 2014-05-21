@@ -10,6 +10,20 @@ CSV.foreach('lackp_starting_rosters.csv', headers: true) do |player_data|
 end
 
 get '/' do
+  @teams = []
+  all_player_data.each do |player|
+    if !@teams.include?(player["team"])
+      @teams << player["team"]
+    end
+  end
+
+  @positions = []
+  all_player_data.each do |position|
+    if !@positions.include?(position["position"])
+      @positions << position["position"]
+    end
+  end
+
   erb :index
 end
 
@@ -24,6 +38,5 @@ end
 
 
 get '/positions/:position' do
-  @all_player_data = all_player_data
   erb :positions
 end

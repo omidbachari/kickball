@@ -28,6 +28,9 @@ get '/' do
 end
 
 get '/teams/:team' do
+
+all_player_data
+
   @team = params[:team]
   @all_player_data = all_player_data
     all_player_data.each do |player_data|
@@ -38,5 +41,13 @@ end
 
 
 get '/positions/:position' do
-  erb :positions
+
+all_player_data
+
+  @position = params[:position]
+  @all_player_data = all_player_data
+    all_player_data.each do |player_data|
+      player_data[:position]
+    end
+erb :positions
 end

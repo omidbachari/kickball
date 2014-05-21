@@ -1,12 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Kickball Teams</title>
+    <title>Kickball Teams | LACKP</title>
   </head>
 
   <body>
     <h1>Kickball Teams</h1>
     <%= "#{@team}" %>
+<ul>
+<% @all_player_data.each do |player| %>
+  <% if player["team"] == @team %>
+  <li><%= "#{player["first_name"]} #{player["last_name"]} - #{player["position"]}" %></li>
+  <%end%>
+<%end%>
+</ul>
+
+<a href="../">Home</a>
 
   </body>
 </html>
+
+
+
+

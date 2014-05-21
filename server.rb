@@ -28,15 +28,27 @@ get '/' do
 end
 
 get '/teams/:team' do
-
-all_player_data
+  all_player_data
 
   @team = params[:team]
   @all_player_data = all_player_data
-    all_player_data.each do |player_data|
-      player_data[:team]
+
+  @team_players = []
+  @all_player_data.each do |player_data|
+    if player_data['team'] == @team
+      @team_players << player_data
     end
-erb :teams
+  end
+
+  # @team_players = @all_player_data.find_all do |player_data|
+  #   player_data['team'] == @team
+  # end
+
+  # all_player_data.each do |player_data|
+  #   player_data[:team]
+  # end
+
+  erb :teams
 end
 
 

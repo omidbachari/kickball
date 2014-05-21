@@ -1,27 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Home Page for LACKP</title>
-  </head>
-  <body>
+
     <h1>Welcome to LACKP</h1>
     <h3>Please review our teams with their current line up. Or, across teams, review a list of positions and see who holds them.</h3>
 
+     <h3>Teams</h3>
       <ul>
         <% @teams.each do |team| %>
-          <li><a href="<%= URI.encode("/teams/#{team}") %>"> <%= team %></a></li>
+          <li><a href="/teams/<%= team %>"> <%= team %></a></li>
         <%end%>
       </ul>
 
-
+    <h3>Positions</h3>
       <ul>
        <% @positions.each do |position| %>
-         <li><a href="<%= URI.encode("/positions/#{position}") %>"> <%= position %></a></li>
+         <li><a href="/positions/<%= position %>"><%= position %></a></li>
        <%end%>
       </ul>
-
-
-
-  </body>
-</html>
-
